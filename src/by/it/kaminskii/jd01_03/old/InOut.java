@@ -1,4 +1,4 @@
-package by.it.kaminskii.jd01_03;
+package by.it.kaminskii.jd01_03.old;
 
 
 public class InOut {

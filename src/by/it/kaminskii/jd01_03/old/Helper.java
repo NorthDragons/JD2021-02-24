@@ -1,9 +1,9 @@
-package by.it.kaminskii.jd01_03;
+package by.it.kaminskii.jd01_03.old;
 
 import java.util.Scanner;
 
 public class Helper {
-    static double findMin(double[] array) {
+    public static double findMin(double[] array) {
 
         double findMin = array[0];
         for (double min : array) {
@@ -18,7 +18,7 @@ public class Helper {
 
     }
 
-    static double findMax(double[] arr) {
+    public static double findMax(double[] arr) {
         double max = arr[0];
         for (double findMax : arr) {
             if (max < findMax) {
@@ -28,7 +28,7 @@ public class Helper {
         return max;
     }
 
-    static void sort(double[] arr) {
+    public static void sort(double[] arr) {
 
         for (int j = 0; j < arr.length; j++) {
             int minIndex = j;
@@ -44,7 +44,7 @@ public class Helper {
         }
     }
 
-    static double[] mul(double[][] matrix, double[] vector) {
+    public static double[] mul(double[][] matrix, double[] vector) {
         double[] matrixSize = new double[matrix.length];
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < vector.length; j++) {
