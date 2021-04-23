@@ -1,6 +1,5 @@
 package by.it.kaminskii.jd01_11;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class ListB<E> implements List<E> {
@@ -53,7 +52,7 @@ public class ListB<E> implements List<E> {
 
     @Override
     public boolean addAll(Collection<? extends E> c) {
-        for(E element : c){
+        for (E element : c) {
             this.add(element);
         }
         return true;
